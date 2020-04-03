@@ -1,7 +1,7 @@
 /*
  * @version   : 1.16.0 - A Bridge.NET implementation of Newtonsoft.Json
  * @author    : Object.NET, Inc. http://www.bridge.net/
- * @copyright : Copyright (c) 2008-2019, Object.NET, Inc. (http://www.object.net/). All rights reserved.
+ * @copyright : Copyright (c) 2008-2020, Object.NET, Inc. (http://www.object.net/). All rights reserved.
  * @license   : See license.txt and https://github.com/bridgedotnet/Bridge.NET/blob/master/LICENSE.
  */
 
@@ -1075,7 +1075,7 @@ Bridge.assembly("Newtonsoft.Json", function ($asm, globals) {
                                         name = prm.sn || prm.n;
 
                                     for (var j = 0; j < properties.length; j++) {
-                                        var cfg = properties[i],
+                                        var cfg = properties[j],
                                             p = cfg.member,
                                             mname = cfg.attr && cfg.attr.PropertyName || p.n;
 
